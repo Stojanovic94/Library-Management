@@ -1,0 +1,47 @@
+/* Postavljanje osnovnih stilova za celu stranicu */
+body {
+    background-color: #3498db; /* Plava pozadina stranice */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #2980b9; /* Tamnoplava pozadina forme */
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #1c5980; /* Tamnoplava bordura */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Širina forme */
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #1c5980;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #1c5980; /* Tamnoplavi dugme */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #174e69; /* Mračniji tamnoplavi dugme pri hover-u */
+}
